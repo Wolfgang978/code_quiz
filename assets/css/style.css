@@ -1,7 +1,64 @@
 * {
-  --red: red;
+  --light: rgb(178, 245, 214);
+  --dark: rgb(2, 45, 58);
+  
+}
+body {
+  background-color: rgb(36, 30, 71);
 }
 
+.header {
+  background-color: var(--dark);
+  color: var(--light);
+  
+}
 h1 {
-  color: var(--red);
+  text-align: center;
+  font-size: 50px;
+  padding: 5px;
+}
+main {
+  text-align: center;
+  display: block;
+}
+p {
+  font-size: 32px;
+  color: var(--light);
+  padding-right: 200px;
+  padding-left: 200px;
+  justify-content: center; 
+  
+}
+.divQuizIntro {
+  display: flex;
+  padding-top: 50px;
+  /* width: 50%; */
+  justify-content: center;
+  background-color: rgb(1, 11, 68)
+}
+.startButton {
+  padding-top: 50px;
+  
+  display: flex;
+  justify-content: center;
+  background-color: rgb(1, 11, 68)
+
+}
+#start {
+  font-size: 30px;
+  
+}
+#timer {
+  font-size: 30px;
+  color: var(--light);
+}
+li {
+  color: var(--light);
+  font-size: 24px;
+  margin: 5px;
+  
+}
+h2 {
+  color: hotpink;
+  font-size: 32px;
 }

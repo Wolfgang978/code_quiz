@@ -4,11 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Word Guess</title>
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <h1>Welcome to my code quiz</h1>
+  <header class="header">
+    <h1>Gravity Falls Code Quiz</h1>
+  </header>
+  <main id ="main">
+    <div class="divQuizIntro"><p class="quizIntro">This is a timed 10 question quiz about Gravity falls. You will have 
+      120 seconds and for every question answered wrong you will have 10 seconds taken away. 
+       At the end of the game you will be given the oppurtunity to save your initials and score
+       which is based on how many seconds you have left at the finish. Click Start the
+      game when you are ready to begin.
+    </p></div>
+    <div class="startButton"><button id="start">Start the Game</button></div>
+    <div id="timer"></div>
+    <div><h2 id="questions"></h2>
+      <ol id="answers">
+        
+      </ol></div>
+  </main>
+
 
 
   <script src="assets/javascript/java.js"></script>
